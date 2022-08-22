@@ -23,7 +23,7 @@ header{
 }
 
 .logohp{
-    width: 60px;
+    width: 65px;
     display: inline-block;
 }
 
@@ -53,6 +53,10 @@ header{
     background-attachment: fixed;
     
 }
+.imgBanner{
+    color: black;
+}
+
 
 #menu-cards div{
     display: inline-block;
@@ -68,7 +72,8 @@ header{
     gap: 40px;
     column-gap: 40px;
     padding-left: 70px;
-
+    padding-top: 90px;
+    
 
 
 }
@@ -88,24 +93,36 @@ header{
     font-size:x-large;
     float: left;
     border: 10px;
+    line-height: 40px;
+   text-align-last:center;
+   text-transform:uppercase;
+  
+   
+   
 }
 
-img.griffindor{
-    width: 50px;
-    height: 50px;
+img.gryffindor{
+    width: 65px;
+    height: 60px;
+    padding-right: 15px;
 }
 
 img.slytherin{
-    width: 50px;
-    height: 50px; 
+    width: 63px;
+    height: 60px; 
+    padding-right: 15px;
 }
+
 
 img.ravenclaw{
-    width: 50px;
-    height: 50px;
+    width: 63px;
+    height: 60px;
+    padding-right: 15px;
 }
 
+
 img.hufflepuff{
-    width: 50px;
-    height: 50px;
+    width: 63px;
+    height: 60px;
+    padding-right: 15px;
 }
