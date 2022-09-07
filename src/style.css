@@ -2,12 +2,18 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
+    font-family: 'Harry P';
+    cursor: url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAClrKQJTExSlwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATk1S/zg4P/8+QUn/b3N8/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPTlP/IiMo/01aURA4PUb/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOjk//25xev9KTFNEAAAAAEhNWP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF1eZZBWVVv/amhu1ExNVB9ITln/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB1dXlPWlti/09RWWtXXWf/+vv7FwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASkhO/1VVW/+BgYeeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEtMU/hPT1X/+Pj4MQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABhZGr/QUhT/zs8RP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANj1J/0pRW/9GTVr/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERFTP9QV2T/TFFc9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABLTVb+VVRd/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARUdP/1RSW/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEhVaf9TVF3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABHTFf+Xmd1/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARUZN/1pkdf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBCSv9XWWD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIUF7/UlNc/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARkpT+VFVYP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE5QV4FPXHD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACXl5tDUV93/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATlBYVVhYX/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEJERAhYW2P/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXGZ2/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAExOVP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaW2D/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT1lr/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEhHTf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxMzr7AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQUNKtQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////v////h////5f///83///+L////r////j////z////4////8f///+P////P////n////z////5////8////+f////P////n////z////9////+/////f////v////3////7////9////+/////f////v/////////8='), auto; }
 
 header{
-    background: rgba(3, 3, 23, 0.92);
-    
+    background: radial-gradient(black, rgb(6, 6, 108), rgb(104, 47, 169));
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
+    height: 8%;
+
 }
+
 .harry-logo{
     display: inline-block;
 }
@@ -17,32 +23,89 @@ header{
     justify-content: space-between;
     
 }
+.menuOne{
+    display:inline-block;
+ 
+}
 
 .menu-cards{
     display: flex;
 }
 
 .logohp{
-    width: 65px;
-    display: inline-block;
+    width: 80px;
+    height: 70px;
+    display:inline-block;
+
 }
-
-#banner{
-
-    width: 100%;
-    height: 30vh;
-    text-align: center;
-    background-image: url(./img/llegando.gif);
+.male{
+    background-image: url(img/magos.jpg);
+    background-size:contain;
+    background-position:right;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    height: 380px;
-    
+    padding: 7em 5em 7em 5em;
+    text-shadow: 0.9em 0.4em 0.3em rgb(21, 21, 12);
+    font-size:20px;
+    transition: transform 0.2s;
+    -webkit-text-stroke: .4px rgb(196, 203, 145);
+    text-align: center; 
+    padding-left: 450px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    padding-top: 20px;
 }
+.male:hover{
+    background-image: url(img/magos.jpg);
+    background-size: contain;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    padding: 7em 5em 7em 5em;
+    text-shadow: 0.9em 0.4em 0.3em rgb(3, 2, 0);
+    font-size:25px;
+    transition: transform 0.2s;
+    -webkit-text-stroke: .4px rgb(233, 235, 218);
+    text-align: center;
+    transform: scale(1.2); 
+    padding-left: 450px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+}
+#one, #two, #three{
+    font-size: 15px;
+    text-align:justify;
+    color: rgb(136, 179, 8);
+    -webkit-text-stroke: .2px rgb(15, 16, 9);
+
+}
+.questions{
+    background-image: url(./img/mapa.jpg);
+    width: 125px;
+    height: 35px;
+    margin-top:-5px;
+    border-radius: 10px;
+    margin-top: 7px;
+    font-size: 19px;
+    color:darkred;
+    text-shadow: 0.9em 0.8em 0.2em rgb(55, 42, 7);
+}
+#banner{
+    width: 105%;
+    height: 90vh;
+    text-align:center;
+    background-image: url(./img/potter.jpg);
+    background-repeat: no-repeat;
+    background-size:100em 25em;
+    height: 380px;   
+}
+
 #banner img{
-    width: 25%;
-    margin-top: 2rem;
+    width: 35%;
+    margin-top: 5rem;
+      
 }
+
 .cards{
     width: 100%;
     height: 100%;
@@ -51,30 +114,16 @@ header{
     background-size: cover;
     background-position:absolute;
     background-attachment: fixed;
-    
-}
-.imgBanner{
-    color: black;
-}
-
-
-#menu-cards div{
-    display: inline-block;
-    color:rgb(17, 3, 3);
-    margin-top: 1rem;
-}
-#menu-cards{
-    text-align: center;
 }
 .container-cards{
     display: grid;
-    grid: 300px / 1fr 1fr 1fr;
-    gap: 40px;
+    grid: 400px / 1fr 1fr 1fr;
+    gap: 50px;
     column-gap: 40px;
     padding-left: 70px;
-    padding-top: 90px;
-    
-
+    padding-right: 80px;
+    padding-top: 80px;
+    overflow-y: auto;
 
 }
 
@@ -84,45 +133,181 @@ header{
     background-image: url(./img/sombra\ tarjeta\ de\ chocolate\ \(1\).png);
     background-repeat: no-repeat;
     background-size:contain;
-    background-position:cover;
     width: 350px;
     height: 350px;
-    color:#faebec;
+    line-height: 35px;
+    transition: transform;
+   
+   /*text-transform:uppercase;*/ 
+}
+.card:hover{
+    display:grid;
+    place-content:center;/*con esto centré el texto*/
+    background-image: url(./img/sombra\ tarjeta\ de\ chocolate\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 350px;
+    height: 350px;
+    line-height: 35px;
+    transform: scale(1.2);   
+   /*text-transform:uppercase;*/ 
+}
+p{
+    text-align:center;
+    background: linear-gradient(rgb(7, 81, 90),rgb(199, 218, 124),rgb(25, 24, 2));
+    color:transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
     font-family: 'Harry P';
     text-shadow: 0.8em 0.3em 0.2em rgb(80, 20, 20);
-    font-size:x-large;
-    float: left;
-    border: 10px;
-    line-height: 40px;
-   text-align-last:center;
-   text-transform:uppercase;
-  
-   
-   
+    font-size:25px;
+    transition: transform 0.2s;
+    -webkit-text-stroke: .4px rgb(147, 76, 21);
+
+}
+
+p:hover{
+    text-align:center;
+   color:aqua;
+    color:transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: 'Harry P';
+    text-shadow: 0.8em 0.3em 0.2em rgb(80, 20, 20);
+    font-size:25px;
+    transform: scale(2);
+}
+
+.menu-cards{
+    display:list-item;
+    text-align:right;
+    position: relative;
+    padding-right: 20px;
 }
 
 img.gryffindor{
-    width: 65px;
-    height: 60px;
-    padding-right: 15px;
+    width: 43px;
+    height: 36px;
+    box-shadow: 5px 5px;
+    gap: 2px;
+    margin-top: 9px;
+    margin-right: 9px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    transition: transform 0.2s;
+}
+img.gryffindor:hover{
+    width: 43px;
+    height: 36px;
+    box-shadow: 5px 5px;
+    gap: 2px;
+    margin-top: 9px;
+    margin-right: 9px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    transform: scale(2);
 }
 
 img.slytherin{
-    width: 63px;
-    height: 60px; 
-    padding-right: 15px;
+    width: 43px;
+    height: 36px;
+    box-shadow: 5px 5px;
+    gap: 2px;
+    margin-top: 9px;
+    margin-right: 9px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    transition: transform 0.2s;
+}
+
+img.slytherin:hover{
+    width: 43px;
+    height: 36px;
+    box-shadow: 5px 5px;
+    gap: 2px;
+    margin-top: 9px;
+    margin-right: 9px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    transform: scale(2);
 }
 
 
 img.ravenclaw{
-    width: 63px;
-    height: 60px;
-    padding-right: 15px;
+    width: 43px;
+    height: 36px;
+    box-shadow: 5px 5px;
+    gap: 2px;
+    margin-top: 9px;
+    margin-right: 9px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    transition: transform 0.2s;
 }
 
+img.ravenclaw:hover{
+    width: 43px;
+    height: 36px;
+    box-shadow: 5px 5px;
+    gap: 2px;
+    margin-top: 9px;
+    margin-right: 9px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    transform: scale(2);
+}
 
 img.hufflepuff{
-    width: 63px;
-    height: 60px;
-    padding-right: 15px;
+    width: 43px;
+    height: 36px;
+    box-shadow: 5px 5px;
+    gap: 2px;
+    margin-top: 9px;
+    margin-right: 9px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    transition: transform 0.2s;
+}
+
+img.hufflepuff:hover{
+    width: 43px;
+    height: 36px;
+    box-shadow: 5px 5px;
+    gap: 2px;
+    margin-top: 9px;
+    margin-right: 9px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    transform: scale(2);
+
+}
+#dropDown{
+    width: 170px;
+    height: 160px;
+    margin-top: 10px;;
+    margin-left: 150px;
+}
+
+#dropDownHouse{
+    width: 170px;
+    height: 160px;
+    margin-top: 10px;
+}
+
+.menuOne{
+    background-image: url(./img/mapa.jpg);
+    width: 125px;
+    height: 35px;
+    margin-top:-5px;
+    border-radius: 10px;
+    font-size: 19px;
+    color:darkred;
+    text-shadow: 0.9em 0.8em 0.2em rgb(55, 42, 7);
+}
+#foot{
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    margin-bottom: 15px;
+    width: 100%;  
 }

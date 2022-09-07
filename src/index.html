@@ -10,39 +10,51 @@
     <header>
       <nav class="menu">
         <div class="harry-logo">
+
           <img class="logohp" src="./img/logharryp.jpg"/>
         </div>
         <div class= "menu-cards">
           <!--<div>
             <input id="search" type="text">//
           </div>-->
-            <img class ="gryffindor" id= "gryffindor" src=" ./img/4.png" alt="gryffindor">
-            <img class ="slytherin" id= "slytherin" src="./img/3.png" alt="slytherin">
-            <img class ="ravenclaw" id= "ravenclaw" src="./img/2.png" alt="ravenclaw">
-            <img class ="hufflepuff" id= "hufflepuff" src="./img/1.png" alt="hufflepuff">
-          
-          <div>
-            /aqui va el dropdown
-          </div>
+            <img class ="gryffindor" id= "gryffindor" src=" ./img/4.png">
+            <img class ="slytherin" id= "slytherin" src="./img/3.png">
+            <img class ="ravenclaw" id= "ravenclaw" src="./img/2.png">
+            <img class ="hufflepuff" id= "hufflepuff" src="./img/1.png"> 
         </div>
-      </nav> 
+        <div id="dropDown">
+          <select class= "menuOne">
+            <option value=" De la A a la Z">De la A a la Z</option>
+            <option value=" De la Z a la A">De la Z a la A</option>
+          </select>
+        </div>
+        <div class="statistic">
+          <select class="questions">
+            <option value="¿Sabías que?">¿Sabías que...?</option>
+              <option value="Magos">Magos</option>
+            </option>
+          </select>
+        </div>      
+      </nav>
     </header>
 
     <div class="container">
       <section id="banner">
         <img src="./img/Harry-Potter-Logo.png" alt="">
       </section>
-      <section class="cards">
-        <div id= "containerCards" class="container-cards">
-          
+      
+      <section class="cards">    
+        <div id= "containerCards" class="container-cards">   
         </div>
-    </div>
-
       </section>
 
-    </div>  
+    </div>
+    
+    
         
-      
+    <footer id="foot">
+      <p>Hecho por Laboratoria 2022</p>
+    </footer>  
     <div id="root"></div>
     <script src="main.js" type="module"></script>
   </body>
