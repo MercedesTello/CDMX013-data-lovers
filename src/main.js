@@ -79,10 +79,10 @@ selectElement.addEventListener('change', (e) => {
     })
 })
 
-document.querySelector('.questions').addEventListener('change', (e) => {
+document.querySelector('.questions').addEventListener('change', () => {
     
    const stats= getStats(characters)
 
-    containerCards.innerHTML = `<div class='male'>${stats.totalMale}<p id='one'>si, como lo lees, la mayor parte de personajes son hombres 🧙🏼‍♂️</p>${stats.totalFemale}<p id='two'>la participación de 🧙‍♀️ y sólo</p>${stats.totalOther}<p id='three'>los otros</p></div>`;
+    containerCards.innerHTML = `<div class='male'>${stats.totalMale}<p id='one'>si, como lo lees, la mayor parte de personajes son hombres 🧙🏼‍♂️</p>${stats.totalFemale},<p id='two'>la participación de 🧙‍♀️' y sólo</p>${stats.totalOther}<p id='three'>los otros</p></div>`;
   
 });

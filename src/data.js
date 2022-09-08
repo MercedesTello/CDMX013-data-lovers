@@ -45,8 +45,7 @@ export const getStats = (characters) => {
     } else {
       totalOther++
     }
-
-
   })
-  return { totalFemale, totalMale, totalOther }
+
+  return { totalFemale, totalMale, totalOther };
 };
