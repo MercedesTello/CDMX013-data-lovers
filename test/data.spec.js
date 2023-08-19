@@ -60,7 +60,7 @@ describe('orderedCharacters', () => {
     { name: 'Euan Abercrombie' },
     { name: 'Stewart Ackerley' },
     { name: 'Cornelius Agrippa' }];
-    let typeOrder = ' De la A a la Z';
+    let typeOrder = ' A to Z';
     let resultadoOrdenado = orderedCharacters(data, typeOrder);
 
     let resultadoEspero = [
@@ -81,7 +81,7 @@ describe('orderedCharacters', () => {
       { name: 'Cornelius Agrippa' },
       { name: 'Stewart Ackerley' }
     ];
-    let characterNameDos = ' De la Z a la A';
+    let characterNameDos = ' Z to A';
     let resultadoDos = orderedCharacters(date, characterNameDos);
     let resultadoReal = [
       { name: 'Stewart Ackerley' },
